@@ -1,0 +1,71 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cars",
+  "info": {
+    "singularName": "car",
+    "pluralName": "cars",
+    "displayName": "car",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "description": {
+      "type": "richtext",
+      "required": true
+    },
+    "background": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "isAvailable": {
+      "type": "boolean",
+      "required": true,
+      "default": true
+    },
+    "CarModel": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Exterior": {
+      "type": "component",
+      "repeatable": false,
+      "component": "exterior.exterior",
+      "required": false
+    },
+    "Interior": {
+      "type": "component",
+      "repeatable": false,
+      "component": "interior.interior",
+      "required": false
+    },
+    "discount": {
+      "type": "string"
+    },
+    "ImgRight": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "Slider": {
+      "type": "component",
+      "repeatable": true,
+      "component": "slider.slider"
+    },
+    "view360": {
+      "type": "component",
+      "repeatable": false,
+      "component": "view360.view360"
+    }
+  }
+}

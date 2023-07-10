@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "dealerships",
+  "info": {
+    "singularName": "dealership",
+    "pluralName": "dealerships",
+    "displayName": "Dealership",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "city": {
+      "type": "string"
+    },
+    "mapLink": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    }
+  }
+}

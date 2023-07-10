@@ -1,0 +1,58 @@
+{
+  "collectionName": "components_interior_interiors",
+  "info": {
+    "displayName": "Interior",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "First": {
+      "type": "string",
+      "required": true
+    },
+    "FirstDescr": {
+      "type": "richtext",
+      "required": true
+    },
+    "FirstImg": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Second": {
+      "type": "string",
+      "required": true
+    },
+    "SecondDescr": {
+      "type": "richtext",
+      "required": true
+    },
+    "SecondImg": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Third": {
+      "type": "string",
+      "required": true
+    },
+    "ThirdDescr": {
+      "type": "richtext",
+      "required": true
+    },
+    "ThirdImg": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_view360_view360s",
+  "info": {
+    "displayName": "view360",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "allImages": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

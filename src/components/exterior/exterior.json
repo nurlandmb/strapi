@@ -1,0 +1,46 @@
+{
+  "collectionName": "components_exterior_exteriors",
+  "info": {
+    "displayName": "exterior",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "FirstImg": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "SecondImg": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "ThirdImg": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "FirstDescr": {
+      "type": "richtext"
+    },
+    "SecondDescr": {
+      "type": "richtext"
+    },
+    "ThirdDescr": {
+      "type": "richtext"
+    }
+  }
+}
