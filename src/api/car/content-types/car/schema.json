@@ -41,13 +41,13 @@
       "type": "component",
       "repeatable": false,
       "component": "exterior.exterior",
-      "required": false
+      "required": true
     },
     "Interior": {
       "type": "component",
       "repeatable": false,
       "component": "interior.interior",
-      "required": false
+      "required": true
     },
     "discount": {
       "type": "string"
@@ -66,6 +66,10 @@
       "type": "component",
       "repeatable": false,
       "component": "view360.view360"
+    },
+    "name": {
+      "type": "string",
+      "required": true
     }
   }
 }

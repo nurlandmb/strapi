@@ -39,6 +39,9 @@
       "allowedTypes": [
         "images"
       ]
+    },
+    "workTime": {
+      "type": "string"
     }
   }
 }
